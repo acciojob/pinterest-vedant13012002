@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.hero{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 400px;
+    background-color: #f0f0f0;
+}
+.hero img{
+	width:80%;
+	/* height:100% */
+	padding:10px;
+}
+.hero button{
+	border:none;
+	color:white;
+	background-color:red;
+}
